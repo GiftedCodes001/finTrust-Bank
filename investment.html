@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financi Trust Banking</title>
+    <script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e12a32d3c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo">
+
+            </div>
+            <div class="btns">
+                <a href="register.html">
+                    <button><i class="fa-solid fa-right-to-bracket"></i>Sign Up</button>
+                </a>
+                <a href="login.html">
+                    <button><i class="fa-regular fa-user"></i>Log in</button>
+                </a>
+            </div>
+            <div class="sign-in-div">
+                <div class="responsive-login"><button>Sign In</button></div>
+                <div class="menu-icon" id="showMenu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li><i class="fa-solid fa-door-open"></i>Home</li>
+                </a>
+                <a href="personal-banking.html">
+                    <li><i class="fa-solid fa-user-tie"></i>Personal Banking</li>
+                </a>
+                <a href="loans-and-morggages.html">
+                    <li><i class="fa-solid fa-building-columns"></i>Loans and Mortgages</li>
+                </a>
+                <a href="credit-cards.html">
+                    <li><i class="fa-regular fa-credit-card"></i>Credit Cards</li>
+                </a>
+                <a href="investment.html">
+                    <li class="active"><i class="fa-solid fa-dollar-sign"></i>Investment</li>
+                </a>
+                <a href="contact.html">
+                    <li><i class="fa-solid fa-phone"></i>Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu-div">
+        <div class="closeMenu"><i class="fa-solid fa-arrow-right"></i></div>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li><i class="fa-solid fa-door-open"></i>Home</li>
+                </a>
+                <a href="personal-banking.html">
+                    <li><i class="fa-solid fa-user-tie"></i>Personal Banking</li>
+                </a>
+                <a href="loans-and-morggages.html">
+                    <li><i class="fa-solid fa-building-columns"></i>Loans and Mortgages</li>
+                </a>
+                <a href="credit-cards.html">
+                    <li><i class="fa-regular fa-credit-card"></i>Credit Cards</li>
+                </a>
+                <a href="investment.html">
+                    <li class="active"><i class="fa-solid fa-dollar-sign"></i>Investment</li>
+                </a>
+                <a href="contact.html">
+                    <li><i class="fa-solid fa-phone"></i>Contact</li>
+                </a>
+                <div class="btns">
+                    <a href="register.html"><button><i class="fa-solid fa-right-to-bracket"></i>Sign Up</button></a>
+                    <a href="login.html"><button><i class="fa-regular fa-user"></i>Log in</button></a>
+                </div>
+            </ul>
+        </nav>
+    </div>
+
+    <header id="stickyNavbar" class="sticky-nav">
+        <nav>
+            <ul>
+                <a href="index.html"><li id="home"><i class="fa-solid fa-door-open"></i>Home</li></a>
+                <a href="personal-banking.html"><li><i class="fa-solid fa-user-tie"></i>Personal Banking</li></a>
+                <a href="loans-and-morggages.html"><li><i class="fa-solid fa-building-columns"></i>Loans and Mortgages</li></a>
+                <a href="credit-cards.html"><li><i class="fa-regular fa-credit-card"></i>Credit Cards</li></a>
+                <a href="investment.html"><li  class="active"><i class="fa-solid fa-dollar-sign"></i>Investment</li></a>
+                <a href="contact.html"><li><i class="fa-solid fa-phone"></i>Contact</li></a>
+                <div class="logo"></div>
+                <div class="responsive-login"><a href="login.html"><i class="fa-solid fa-user"></i></a></div>
+                <div class="menu-icon" id="showMenu"><i class="fa-solid fa-bars"></i></div>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!------------------------- Hero Section ----------------------- -->
+    <!------------------------- and Overlay ----------------------- -->
+    <div class="grey-hero-body">
+        <div class="btc-hero-sec">
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {
+                "symbols": [
+                  {
+                    "description": "",
+                    "proName": "BINANCE:BTCUSDT"
+                  },
+                  {
+                    "description": "",
+                    "proName": "OANDA:XAUUSD"
+                  },
+                  {
+                    "description": "",
+                    "proName": "BITSTAMP:BTCUSD"
+                  },
+                  {
+                    "description": "",
+                    "proName": "FX:EURUSD"
+                  },
+                  {
+                    "description": "",
+                    "proName": "COINBASE:BTCUSD"
+                  },
+                  {
+                    "description": "",
+                    "proName": "SP:SPX"
+                  },
+                  {
+                    "description": "",
+                    "proName": "FX:EURUSD"
+                  },
+                  {
+                    "description": "",
+                    "proName": "NASDAQ:TSLA"
+                  },
+                  {
+                    "description": "",
+                    "proName": "TVC:GOLD"
+                  },
+                  {
+                    "description": "",
+                    "proName": "COINBASE:SOLUSD"
+                  },
+                  {
+                    "description": "",
+                    "proName": "CRYPTOCAP:ETH"
+                  }
+                ],
+                "showSymbolLogo": true,
+                "isTransparent": false,
+                "displayMode": "adaptive",
+                "colorTheme": "light",
+                "locale": "en"
+              }
+                </script>
+              </div>
+            <!-- /////-------------Life Coin------------- -->
+            <div class="bg-hero-div">
+                <div class="hero-content">
+                    <h1><span>SECURE</span> AND <span>EASY WAY</span> TO TRADE <span>FOREX</span> AND OTHER <span>CRYPTO
+                            ASSETS</span></h1>
+                    <button>Get Started <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+    
+        <!-------------------------Hero OverLay Section ----------------------- -->
+        <div class="overlay-hold-div">
+            <div class="overlay-absolute-div">
+                <div class="flex-div">
+                    <div class="each-card">
+                        <div class="icon-div"><img src="images/investment-imgs/invest-icon.png"></div>
+                        <h4>INVESTING</h4>
+                        <p>A wide selection of investment plans to help build a diversified portfolio. A wide selection
+                            of investment plans to help build a diversified portfolio</p>
+                    </div>
+                    <div class="each-card">
+                        <div class="icon-div"><img src="images/investment-imgs/trade-icon.png" alt=""></div>
+                        <h4>TRADING</h4>
+                        <p>Powerful trading tools,resources and support to help Lorem ipsum dolor sit, amet consectetur
+                            adipisicing elit. Delectus, et maxime!</p>
+                    </div>
+                    <div class="each-card">
+                        <div class="icon-div"><img src="images/investment-imgs/wealth-manage-icon.png" alt=""></div>
+                        <h4>Agro Investment</h4>
+                        <p>Dedicated financial consultant to help reach your own specific goals. Dedicated financial
+                            consultant to help reach your own specific goals. Dedicated financial consultant to help
+                            reach your own specific goals</p>
+                    </div>
+                    <div class="each-card">
+                        <div class="icon-div"><img src="images/investment-imgs/wealth-manage-icon.png" alt=""></div>
+                        <h4>WEALTH MANAGEMENT</h4>
+                        <p>Dedicated financial consultant to help reach your own specific goals. Dedicated financial
+                            consultant to help reach your own specific goals. Dedicated financial consultant to help
+                            reach your own specific goals</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-------------------------Hero OverLay Section ----------------------- -->
+    
+        </div>
+    </div>
+
+     <!-- -------------------------About Section -----------------------  -->
+    <section class="about-section">
+        <div class="about-section-header">
+            <div class="header-box">
+                <h2>About <span>Investment</span></h2>
+                <h5>AN INTERNATIONAL COMPANY THAT LISTS WALLETS, EXCHANGES, INVESTMENTS AND OTHER BITCOIN RELATED INFO
+                </h5>
+            </div>
+        </div>
+        <div class="about-section-body">
+            <div class="dashboard-img-div">
+                <img src="images/investment-imgs/investment-dashboard-img.png" alt="">
+            </div>
+            <div class="about-note">
+                <h2>WE ARE CASH EXPERT INVESTMENT</h2>
+                <p>For decades, the dominant players in forex have been the privileged, in-the-know few. But our platform is disrupting the entire industry and equipping prospective investors with the opportunity to actualize their investment dreams. Grow a trade account and make internet work for you, relieve you from 9-5 jobs the foriegn exchange market work for you 24/7 with our minimalist platform. We trade and ensure the coverage of transactions profitably in Forex, Commodities(stocks), and Indices etc. We manage losses and trading processes to meet up with the average required monthly quota ROI of your desired package and facilitation of the worldwide maket. Our elite trade development team and account managers are handpicked from the best and have over 7 years of experience, and have traded for several of the most reputable brokers. Join over 4000 investors from all over the world satisfied with our services.</p>
+                <button>Read more... <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ----------------------- WHY CHOOSE US Section----------------------- -->
+    <section class="why-us-section">
+        <div class="why-us-section-header">
+            <div class="header-box">
+                <h2>Why Choose <span>US</span></h2>
+                <h5>WE ARE COMMITTED TO HELPING OUR USERS ATTAIN THEIR GOALS, SIMPLIFYING THE COMPLEXITIES OF INVESTING WITH INSTINCTUAL TOOLS THAT MAKE YOU EFFICIENT FOR DECISION MAKING.
+                </h5>
+            </div>
+        </div>
+        <div class="why-us-section-grid">
+            <div class="grid-card">
+                <div class="wrap-icon">
+                    <div class="icon-div">icon</div>
+                </div>
+                <div class="card-cont">
+                    <h2>STRONG SECURITY</h2>
+                    <p>Protection against DDoS attacks, 
+                        full data encryption</p>
+                </div>
+            </div>
+            <div class="grid-card">
+                <div class="wrap-icon">
+                    <div class="icon-div">icon</div>
+                </div>
+                <div class="card-cont">
+                    <h2>WORLD COVERAGE</h2>
+                    <p>Providing services in 99% countries
+                        around all the globe</p>
+                </div>
+            </div>
+            <div class="grid-card">
+                <div class="wrap-icon">
+                    <div class="icon-div">icon</div>
+                </div>
+                <div class="card-cont">
+                    <h2>PAYMENT OPTIONS</h2>
+                    <p>Popular methods: Fast easy blockchain technology transfer</p>
+                </div>
+            </div>
+            <div class="grid-card">
+                <div class="wrap-icon">
+                    <div class="icon-div">icon</div>
+                </div>
+                <div class="card-cont">
+                    <h2>POWERFUL TRADING TOOLS</h2>
+                    <p>Platform that brings trading
+                        power to your fingertips</p>
+                </div>
+            </div>
+            <div class="grid-card">
+                <div class="wrap-icon">
+                    <div class="icon-div">icon</div>
+                </div>
+                <div class="card-cont">
+                    <h2>COST EFFICIENCY</h2>
+                    <p>Providing services in 99% countries
+                        around all the globe</p>
+                </div>
+            </div>
+            <div class="grid-card">
+                <div class="wrap-icon">
+                    <div class="icon-div">icon</div>
+                </div>
+                <div class="card-cont">
+                    <h2>HIGH LIQUIDITY</h2>
+                    <p>Fast access to high liquidity orderbook
+                        for top currency pairs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------- AFFORDABLE PLANS SECTION----------------------- -->
+    <section class="afford-section">
+        <div class="afford-header">
+            <div class="header-box">
+                <h2>AFFORDABLE <span>PLANS</span></h2>
+                <h5>INVEST IN OUR VARIOUS PLANS TO YIELD A PASSIVE INCOME FOR YOUR RETIREMENT.
+                </h5>
+            </div>
+        </div>
+        <div class="afford-body">
+            <div class="plan-card">
+                <div class="plan-cont">
+                    <h4>BASIC</h4>
+                    <h1 class="price">$100 - $999</h1>
+                    <button>Get Plan <i class="fa-solid fa-arrow-right"></i> </button>
+                    <ul>
+                        <li>MINIMUM DEPOSIT: $100</li>
+                        <li>MAXIMUM DEPOSIT: $999</li>
+                        <li>DURATION: 3 DAYS</li>
+                        <li>ROI: 10X</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan-card">
+                <div class="plan-cont">
+                    <h4>SILVER PLAN</h4>
+                    <h1 class="price">$1,000 - $4,999</h1>
+                    <button>Get Plan <i class="fa-solid fa-arrow-right"></i> </button>
+                    <ul>
+                        <li>MINIMUM DEPOSIT: $1,000</li>
+                        <li>MAXIMUM DEPOSIT: $4,999</li>
+                        <li>DURATION: 7 DAYS</li>
+                        <li>ROI: 5X</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan-card">
+                <div class="plan-cont">
+                    <h4>GOLD PLAN</h4>
+                    <h1 class="price">$5,000 - $9,999</h1>
+                    <button>Get Plan <i class="fa-solid fa-arrow-right"></i> </button>
+                    <ul>
+                        <li>MINIMUM DEPOSIT: $5,000</li>
+                        <li>MAXIMUM DEPOSIT: $9,999</li>
+                        <li>DURATION: 14 DAYS</li>
+                        <li>ROI: 5X</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan-card">
+                <div class="plan-cont">
+                    <h4>PLATINUM PLAN</h4>
+                    <h1 class="price">$10,000 - $49,000</h1>
+                    <button>Get Plan <i class="fa-solid fa-arrow-right"></i> </button>
+                    <ul>
+                        <li>MINIMUM DEPOSIT: $10,000</li>
+                        <li>MAXIMUM DEPOSIT: $49,000</li>
+                        <li>DURATION: 30 DAYS</li>
+                        <li>ROI: 5X</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan-card">
+                <div class="plan-cont">
+                    <h4>PREMIUM</h4>
+                    <h1 class="price">$50,000 - $99,000</h1>
+                    <button>Get Plan <i class="fa-solid fa-arrow-right"></i> </button>
+                    <ul>
+                        <li>MINIMUM DEPOSIT: $50,000</li>
+                        <li>MAXIMUM DEPOSIT: $99,000</li>
+                        <li>DURATION: 2 MONTHS</li>
+                        <li>ROI: 5X</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan-card">
+                <div class="plan-cont">
+                    <h4>PLUTO</h4>
+                    <h1 class="price">$100,000 - $1,000,000</h1>
+                    <button>Get Plan <i class="fa-solid fa-arrow-right"></i> </button>
+                    <ul>
+                        <li>MINIMUM DEPOSIT: $100,000</li>
+                        <li>MAXIMUM DEPOSIT: $1,000,000</li>
+                        <li>DURATION: 4 MONTHS</li>
+                        <li>ROI: 50X</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------- Bitcoin Calculator SECTION----------------------- -->
+    <section class="btc-calculator-sect">
+        <div class="calculator-header">
+            <div class="header-box">
+                <h2>BITCOIN <span>CALCULATOR</span></h2>
+                <h5>FIND OUT THE CURRENT BITCOIN VALUE WITH OUR EASY-TO-USE CONVERTER.
+                </h5>
+            </div>
+        </div>
+
+        <div class="calculator-container">
+            <div class="calculator-content">
+                <input type="number" name="amount" id="amount" placeholder="Enter Amount to convert" onkeyup="" required>
+                <label id="fromCurrencyName"></label>
+
+                <div class="flex-select" id="select-field">
+                    <select name="fromCurrency" id="fromCurrency" onchange="showFromCurrencyName()">
+                        <option value="USD" selected="">USD - US Dollar</option>
+                        <option value="EUR">EUR - Euro</option>
+                        <option value="GBP">GBP - British Pound</option>
+                        <option value="CAD">CAD - Canadian Dollar</option>
+                        <option value="AUD">AUD - Australian Dollar</option>
+                        <option value="JPY">JPY - Japanese Yen</option>
+                        <option value="INR">INR - India Rupee</option>
+                        <option value="NZD">NZD - New Zealand Dollar</option>
+                        <option value="CHF">CHF - Swiss Franc</option>
+                        <option value="ZAR">ZAR - South African Rand</option>
+                        <option value="BGN">BGN - Bulgarian Lev</option>
+                        <option value="SGD">SGD - Singapore Dollar</option>
+                        <option value="HKD">HKD - Hong Kong Dollar</option>
+                        <option value="SEK">SEK - Swedish Krona</option>
+                        <option value="THB">THB - Thai Baht</option>
+                        <option value="HUF">HUF - Hungarian Forint</option>
+                        <option value="CNY">CNY - Chinese Yuan Renminbi</option>
+                        <option value="NOK">NOK - Norwegian Krone</option>
+                        <option value="MXN">MXN - Mexican Peso</option>
+                        <option value="GHS">GHS - Ghanians Cedi</option>
+                        <option value="NGN">NGN - Nigerian Naira</option>
+                    </select>
+                    <div class="compare-icon">
+                        <i class="fa-solid fa-code-compare"></i>
+                    </div>
+                    <select name="toCurrency" id="toCurrency" onchange="showCurrencyName()">
+                        <option value="BTC">Bitcoin (BTC)</option>
+                        <option value="ETH">Ethereum (ETH)</option>
+                        <option value="USDT">Tether (USDT)</option>
+                        <option value="BNB">Binance Coin (BNB)</option>
+                        <option value="USDC">USD Coin (USDC)</option>
+                        <option value="XRP">XRP (XRP)</option>
+                        <option value="BUSD">Binance USD (BUSD)</option>
+                        <option value="ADA">cardano (ADA)</option>
+                        <option value="DOGE">Dogecoin (DOGE)</option>
+                        <option value="MATIC">Polygon (MATIC)</option>
+                        <option value="SOL">Solana (SOL)</option>
+                        <option value="DOT">Polkadot (DOT)</option>
+                        <option value="SHIB">Shiba Inu (SHIB)</option>
+                        <option value="LTC">Litecoin (LTC)</option>
+                        <option value="TRX">Tron (TRX)</option>
+                        <option value="AVAX">Avalanche (AVAX)</option>
+                    </select>
+                </div>
+                <div class="convert-btn">
+                    <button>Convert</button>
+                </div>
+                <div class="result-div">
+                    <span>1 Bitcoin (BTC) = 70,898.28 United States Dollar "$" (USD)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------- TRUST SECTION----------------------- -->
+    <section class="trust-section">
+        <div class="trust-header">
+            <div class="header-box">
+                <h2>WE ARE <span>TRUSTED</span></h2>
+                <h5>ASSOCIATE COMPANIES WE PARTNER WITH.
+                </h5>
+            </div>
+        </div>
+        <div class="trust-body-grid">
+            <div class="body-cont">
+                <div class="body-head">
+                    <img src="images/investment-imgs/trust-1.png" alt="">
+                </div>
+                <div class="body-note">
+                    <span>8.9</span>
+                </div>
+            </div>
+            <div class="body-cont">
+                <div class="body-head">
+                    <img src="images/investment-imgs/trust-2.png" alt="">
+                </div>
+                <div class="body-note">
+                    <span>8.9</span>
+                </div>
+            </div>
+            <div class="body-cont">
+                <div class="body-head">
+                    <img src="images/investment-imgs/trust-4.png" alt="">
+                </div>
+                <div class="body-note">
+                    <span>8.9</span>
+                </div>
+            </div>
+            <div class="body-cont">
+                <div class="body-head">
+                    <img src="images/investment-imgs/trust-5.png" alt="">
+                </div>
+                <div class="body-note">
+                    <span>8.9</span>
+                </div>
+            </div>
+            <div class="body-cont">
+                <div class="body-head">
+                    <img src="images/investment-imgs/trust-6.png" alt="">
+                </div>
+                <div class="body-note">
+                    <span>8.9</span>
+                </div>
+            </div>
+        </div>
+        <div class="partner-div">
+            <p>Been in partnership since 2015 and having been emerging enormously to the growth and innovation of the CRYPTO industry.</p>
+        </div>
+    </section>
+
+    <!-- ----------------------- REVIEW SECTION----------------------- -->
+    <section class="review-section">
+        <div class="review-header">
+            <div class="header-box">
+                <h2><span>REVIEWS </span> FROM CLIENTS</h2>
+            </div>
+        </div>
+        <div class="testimony-grid">
+            <div class="testimony-card">
+                <div class="testimony-cont">
+                    <div class="testimony-head"><img src="images/investment-imgs/review-1.jpg" ></div>
+                    <h2>RUKKY THEODORE</h2>
+                    <p>finTrust runs a quick and reliable system. It feels great to know that I Can always trust their support system to come through for me. Their response speed is prompt and the delivery is precise to the last detail..</p>
+                </div>
+            </div>
+            <div class="testimony-card">
+                <div class="testimony-cont">
+                    <div class="testimony-head"><img src="images/investment-imgs/review-1.jpg" ></div>
+                    <h2>RUKKY THEODORE</h2>
+                    <p>finTrust runs a quick and reliable system. It feels great to know that I Can always trust their support system to come through for me. Their response speed is prompt and the delivery is precise to the last detail..</p>
+                </div>
+            </div>
+            <div class="testimony-card">
+                <div class="testimony-cont">
+                    <div class="testimony-head"><img src="images/investment-imgs/review-2.jpg" ></div>
+                    <h2>SCOTT SMITH</h2>
+                    <p>I'm an engineer in Washington DC when an account manager KLOE AURORA brought this opportunity to me I just said casually to invest with $500 but my story today is on a premium plan.</p>
+                </div>
+            </div>
+            <div class="testimony-card">
+                <div class="testimony-cont">
+                    <div class="testimony-head"><img src="images/investment-imgs/review-3.jpg" ></div>
+                    <h2>JAMES FREDERICK</h2>
+                    <p>Am an engineer in Washington DC when an account manager KLOE AURORA brought this opportunity to me I just said casually to invest with $500 but my story today is on a premium plan.</p>
+                </div>
+            </div>
+            <div class="testimony-card">
+                <div class="testimony-cont">
+                    <div class="testimony-head"><img src="images/investment-imgs/review-1.jpg" ></div>
+                    <h2>RUKKY THEODORE</h2>
+                    <p>Am an engineer in Washington DC when an account manager KLOE AURORA brought this opportunity to me I just said casually to invest with $500 but my story today is on a premium plan.</p>
+                </div>
+            </div>
+            <div class="testimony-card">
+                <div class="testimony-cont">
+                    <div class="testimony-head"><img src="images/investment-imgs/review-1.jpg" ></div>
+                    <h2>RUKKY THEODORE</h2>
+                    <p>Am an engineer in Washington DC when an account manager KLOE AURORA brought this opportunity to me I just said casually to invest with $500 but my story today is on a premium plan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-header">
+            <div class="header-box">
+                <h2> GET <span> STARTED</span></h2>
+                <h5>Join our Lucrative TradePorium community to hekp you achieve your goals</h5>
+            </div>
+        </div>
+        <div class="cta-button">
+            <button>Register <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+
+    <!------------- Back to Top----------- -->
+    <a href="#">
+        <div class="bk-to-top" id="bkToTop">
+            <span></span>
+        </div>
+    </a>
+
+
+
+    <!-- -------------Footer-Section-------------- -->
+    <footer>
+        <div class="footer-content">
+            <div class="col">
+                <div class="logo"></div>
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col staytuned">
+                <h4>Stay tuned</h4>
+                <p>Let's keep you updated for our coming <br> features</p>
+                <form action="">
+                    <div class="input-div">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <button><i class="fa-regular fa-paper-plane"></i>Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>copyright 2024 financiTrust Online bank</p>
+            <div>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

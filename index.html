@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financi Trust Banking</title>
+    <script src="https://kit.fontawesome.com/e12a32d3c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-header">
+            <div class="logo">
+
+            </div>
+            <div class="btns">
+                <a href="register.html">
+                    <button><i class="fa-solid fa-right-to-bracket"></i>Sign Up</button>
+                </a>
+                <a href="login.html">
+                    <button><i class="fa-regular fa-user"></i>Log in</button>
+                </a>
+            </div>
+            <div class="sign-in-div">
+                <div class="responsive-login"><a href="login.html"><i class="fa-solid fa-user"></i></a></div>
+                <div class="menu-icon" id="showMenu"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html"><li class="active"><i class="fa-solid fa-door-open"></i>Home</li></a>
+                <a href="personal-banking.html"><li><i class="fa-solid fa-user-tie"></i>Personal Banking</li></a>
+                <a href="loans-and-morggages.html"><li><i class="fa-solid fa-building-columns"></i>Loans and Mortgages</li></a>
+                <a href="credit-cards.html"><li><i class="fa-regular fa-credit-card"></i>Credit Cards</li></a>
+                <a href="investment.html"><li><i class="fa-solid fa-dollar-sign"></i>Investment</li></a>
+                <a href="contact.html"><li><i class="fa-solid fa-phone"></i>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="menu-div">
+        <div class="closeMenu"><i class="fa-solid fa-arrow-right"></i></div>
+        <nav>
+            <ul>
+                <a href="index.html"><li class="active"><i class="fa-solid fa-door-open"></i>Home</li></a>
+                <a href="personal-banking.html"><li><i class="fa-solid fa-user-tie"></i>Personal Banking</li></a>
+                <a href="loans-and-morggages.html"><li><i class="fa-solid fa-building-columns"></i>Loans and Mortgages</li></a>
+                <a href="credit-cards.html"><li><i class="fa-regular fa-credit-card"></i>Credit Cards</li></a>
+                <a href="investment.html"><li><i class="fa-solid fa-dollar-sign"></i>Investment</li></a>
+                <a href="contact.html"><li><i class="fa-solid fa-phone"></i>Contact</li></a>
+                <div class="btns">
+                    <a href="register.html"><button><i class="fa-solid fa-right-to-bracket"></i>Sign Up</button></a>
+                    <a href="login.html"><button><i class="fa-regular fa-user"></i>Log in</button></a>
+                </div>
+            </ul>
+        </nav>
+    </div>
+
+    <header id="stickyNavbar" class="sticky-nav">
+        <nav>
+            <ul>
+                <a href="index.html"><li class="active" id="home"><i class="fa-solid fa-door-open"></i>Home</li></a>
+                <a href="personal-banking.html"><li><i class="fa-solid fa-user-tie"></i>Personal Banking</li></a>
+                <a href="loans-and-morggages.html"><li><i class="fa-solid fa-building-columns"></i>Loans and Mortgages</li></a>
+                <a href="credit-cards.html"><li><i class="fa-regular fa-credit-card"></i>Credit Cards</li></a>
+                <a href="investment.html"><li><i class="fa-solid fa-dollar-sign"></i>Investment</li></a>
+                <a href="contact.html"><li><i class="fa-solid fa-phone"></i>Contact</li></a>
+                <div class="logo"></div>
+                <div class="responsive-login"><a href="login.html"><i class="fa-solid fa-user"></i></a></div>
+                <div class="menu-icon" id="showMenu"><i class="fa-solid fa-bars"></i></div>
+            </ul>
+        </nav>
+    </header>
+    <!-- ---------First Sec carousel-div--------- -->
+    <section class="carousel-div" id="carouselDiv">
+        <div class="welcome-card" id="welcomeCard">
+            <div class="cont">
+                <form action="">
+                    <h2>Welcome</h2>
+                    <div class="labelDiv">
+                        <label for="password"><i class="fa-regular fa-user"></i></label>
+                        <input type="text" placeholder="Password" id="password" name="password">
+                    </div>
+                    <div class="labelDiv">
+                        <label for="email"><i class="fa-solid fa-lock"></i></label>
+                        <input type="text" placeholder="Email" id="email" name="email">
+                    </div>
+                    <div class="remember-div">
+                        <input type="checkbox" class="checkbox">
+                        <p>Remember Me</p>
+                    </div>
+                    <div class="btn-div">
+                        <a href="#"><button id="signIn">Nice To Have You</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="right-space">
+            <div class="content" id="testTesting">
+                <h1>Explore a Smart Online Banking to help Reach Your Potentials</h1>
+                <p>Simplify your Financial life with our intuitive and secure online banking platform</p>
+                <div class="btn">
+                    <button>Get Started <span>>>></span></button>
+                </div>
+            </div>
+            <img id="imgHeight" src="images/home-imgs/man-slide.png" alt="">
+        </div>
+    </section>
+
+    <!------------- Back to Top----------- -->
+    <a href="#">
+        <div class="bk-to-top" id="bkToTop">
+            <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        </div>
+    </a>
+    
+    <!-- -------------Second Sec Cards------------- -->
+    <section class="sec-2-section">
+        <div class="sec-2">
+            <div class="sec-2-grid">
+                <div class="card js-slide-card">
+                    <div class="content">
+                        <div class="card-icon"></div>
+                        <h4>Recent Transactions</h4>
+                        <p>See your most recent financial 
+                        transactions, including deposits, withdrawers and transfers.
+                        </p>
+                        <button>View Transactions</button>
+                    </div>
+                </div>
+                <div class="card js-slide-card">
+                    <div class="content">
+                        <div class="card-icon"></div>
+                        <h4>Savings Goals</h4>
+                        <p>Set and track your savings goals to help you stay motivated and reach your financial objectives</p>
+                        <button>Set Goals</button>
+                    </div>
+                </div>
+                <div class="card js-slide-card">
+                    <div class="content">
+                        <div class="card-icon"></div>
+                        <h4>Budget Overview</h4>
+                        <p>See your budget at a glance, including your monthly income, expenses and savings goals.</p>
+                        <button>View Transactions</button>
+                    </div>
+                </div>
+                <div class="card js-slide-card">
+                    <div class="content">
+                        <div class="card-icon"></div>
+                        <h4>Account Alert</h4>
+                        <p>Set Custom alerts for your account activity, such as low balance notifications or unusual spending patterns.5
+                        </p>
+                        <button>Set Alert</button>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <section class="financial-goals-matter">
+        <div class="financi-sect">
+            <h1>Your financial goals matter</h1>
+            <p>We can help you achieve them through Better Money Habits® financial 
+                education and programs that make communities stronger.</p>
+        </div>
+        <!-- -------------About Us Section-------------- -->
+        <div class="aboutUs-Sec">
+            <div class="flex-div">
+                <div class="about-img">
+                    <img src="images/home-imgs/about.jpg" alt="">
+                </div>
+                <div class="about-content">
+                    <h4>About Us</h4>
+                    <h3>We care about your <br> money and safety</h3>
+                    <div class="abt-btns">
+                        <button class="active-abt goal" id="goal">OUR GOAL</button>
+                        <button class="vision" id="vision">OUR VISION</button>
+                        <button class="mission" id="mission">OUR MISSION</button>
+                    </div>
+                    <p class="about-info">Our Online banking service is designed to help you manage your finances and achieve your financial goals in the most convenient and secure way possible. We provide easy-to-use tools and innovativefeatures that make managing your money simple and hassle free.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------Explore Section-------------- -->
+    <section class="explore-sec">
+        <div class="explore-content">
+            <h1>Explore Our Features</h1>
+            <div class="grid-card">
+                <div class="card">
+                    <div class="icon-div"><i class="fa-solid fa-money-bill-transfer"></i></div>
+                    <h4>Transfer Money</h4>
+                    <p>You are able to transfer your funds within the financiTrust bank or other banks we support by adding your beneficiaries</p>
+                    <button><span class="hover-btn-txt">Transfer</span></button>
+                </div>
+                <div class="card">
+                    <div class="icon-div"><i class="fa-solid fa-money-bill"></i></div>
+                    <h4>Deposit Schemes</h4>
+                    <p>We have two deposit scheme for you, one is pension scheme and another one is the Fixed Deposit Receipt</p>
+                    <button><span class="hover-btn-txt">Deposit</span></button>
+                </div>
+                <div class="card">
+                    <div class="icon-div"><i class="fa-solid fa-layer-group"></i></div>
+                    <h4>Take Loan</h4>
+                    <p>You are able to get a loan with the financiTrust bank to be paid back within the specific given period of time.</p>
+                    <button><span class="hover-btn-txt">Get Loan</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="can-i-work">
+        <div>
+            <h1>Can i Work on my Credit</h1>
+            <h2>Yes you can</h2>
+        </div>
+    </section>
+
+    <!-- -------------Give-Section-------------- -->
+    <div class="hold">
+        <section class="give-section">
+            <div class="flex-div">
+                <div class="left-sec">
+                    <h2>We Are Giving You The <br> Best Services</h2>
+                    <div class="info">
+                        <div class="test">
+                            <h4>Lowest Transaction Fee</h4>
+                            <p>We believe that banking should be accessible and affordable for everyone, and our low transaction fees are just one way that we're making that a reality.</p>
+                        </div>
+                        <hr>
+                        <div class="test">
+                            <h4>Secure OTP</h4>
+                            <p>At finTrust we take security seriously and our secure OTP system is just one of the ways we implemented to keep your finances safe and secure.</p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="right-sec">
+                    <div><img class="img1" src="images/home-imgs/give-sec-img1.jpg" alt=""></div>
+                    <div class="xperience-div">
+                        <div class="icon-div"><i class="fa-solid fa-award"></i></div>
+                        <h3><span>33+</span><br> Years of Experience</h3>
+                    </div>
+                    <div class="try"><img class="img2" src="images/home-imgs/give-sec-img2.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- -------------Testimony-Section-------------- -->
+    <section class="testimony-section">
+        <h4>Testimonies</h4>
+        <h1>What our clients says?</h1>
+        <div class="testimony-wrapper">
+            <div class="card">
+                <div class="card-head">
+                    <img src="images/home-imgs/avatar1.png" alt="">
+                    <div class="person-info">
+                        <h4>James Harper</h4>
+                        <p>from Delhi</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Overall, I am extremely satisfied with financiTrust Online Banking Platform and would highly recommend it to anyone looking for a reliable, secure and convenient banking experience</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <img src="images/home-imgs/avatar2.png" alt="">
+                    <div class="person-info">
+                        <h4>James Harper</h4>
+                        <p>from British</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>financiTrust Online Banking security measures in place of mind knowing that my personal and financial information is well protected. And on the rare occasion that i've'needed assistance, their customer support team has been quick to respond and resolve my concerns.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <img src="images/home-imgs/avatar4.png" alt="">
+                    <div class="person-info">
+                        <h4>Ana George</h4>
+                        <p>from USA</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>I recently switched to financiTrust online banking and i couldn't be happier with my decision. The mobile check deposit feature has saved me countless trips to the bank and the bil pay function ensures my bills are paid on time</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimony-wrapper">
+            <div class="card">
+                <div class="card-head">
+                    <img src="images/home-imgs/avatar7.png" alt="">
+                    <div class="person-info">
+                        <h4>Judith Williams</h4>
+                        <p>from USA</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>I've been using financiTrust online banking platform for over a year now, and it has transformed the way i manage my finances.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <img src="images/home-imgs/avatar3.png" alt="">
+                    <div class="person-info">
+                        <h4>James Harper</h4>
+                        <p>from England</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>The website is incredibility user-friendly, making it easy to access my accounts, transfer funds, pay bills and track my spending.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-head">
+                    <img src="images/home-imgs/avatar6.png" alt="">
+                    <div class="person-info">
+                        <h4>Farai Tamha</h4>
+                        <p>from Delhi</p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p>One feature that has been particularly helpful is the personalized financial decisions and stay on top of my budget.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------Footer-Section-------------- -->
+    <footer>
+        <div class="footer-content">
+            <div class="col">
+                <div class="logo"></div>
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col staytuned">
+                <h4>Stay tuned</h4>
+                <p>Let's keep you updated for our coming <br> features</p>
+                <form action="">
+                    <div class="input-div">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <button><i class="fa-regular fa-paper-plane"></i>Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>copyright 2024 financiTrust Online bank</p>
+            <div>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- TradingView Widget BEGIN -->
+    <!-- <div class="tradingview-widget-container" style="height:100%;width:100%">
+    <div class="tradingview-widget-container__widget" style="height:calc(100% - 32px);width:100%"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+    {
+    "autosize": true,
+    "symbol": "NASDAQ:AAPL",
+    "interval": "240",
+    "timezone": "Etc/UTC",
+    "theme": "dark",
+    "style": "1",
+    "locale": "en",
+    "enable_publishing": false,
+    "allow_symbol_change": true,
+    "calendar": false,
+    "support_host": "https://www.tradingview.com"
+  }
+    </script>
+    </div> -->
+  <!-- TradingView Widget END -->
+
+  <!-- Broker / Forex Site -->
+  <!-- https://sproutprimecapital.com/ -->
+
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('welcomeCard').classList.add('slideWelcome');
+    </script>
+	<!-- <script type='text/javascript' src='js/scripts.js'></script> -->
+    
+</body>
+
+</html>
